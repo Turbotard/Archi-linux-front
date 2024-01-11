@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.block{
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.block h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.block form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.block form .input{
+    width: 70%;
+    height: 25px;
+    margin: auto;
+}
+
+.block form .btn{
+    margin: auto;
+    width: 80px;
+    height: 30px;
+}
+
+/* ------------------ HOME ------------------  */
+
+.block-2{
+    background-color: aliceblue;
+    height: 300px;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.block-2 .btn{
+    margin-left: 70%;
+    height: 30px;
+    width: 100px;
+}
+
+
+ul{
+    height: 80%;
+ list-style: none;
+ background-color: rgb(216, 237, 255);
+}
+
+.cellule{
+    border: 1px solid green;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cellule p{
+    background-color: aliceblue;
+}
+
+.my-btn{
+    display: flex;
+    background-color: aquamarine;
+}
+
+.btn-2{
+    height: 30px;
+    margin: auto;
+    margin: 5px;
+}
